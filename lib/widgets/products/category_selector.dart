@@ -46,7 +46,7 @@ class _CategorySelectorState
               child: CategoryBtn(
                 category: CategoryEntity(
                   id: 0,
-                  label: "Tous",
+                  label: "All",
                   icon: Icons.category,
                 ),
                 selected: _currentCategory == null,
